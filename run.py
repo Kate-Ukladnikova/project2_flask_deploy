@@ -1,6 +1,4 @@
-from project2_flask import create_app
-
-app = create_app()
+from project2_flask.admin import app
 
 if __name__ == '__main__':
     app.run(debug=True)
